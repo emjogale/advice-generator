@@ -5,11 +5,12 @@ const adviceEL = document.getElementById("advice");
 
 // fetch advice and update the DOM
 function getAdvice() {
-	fetch(`https://api.adviceslip.com/advice`).then((res) =>
-		res.json().then((data) => {
-			advice_numberEL.innerText = data.slip.id;
-			advice.textContent = data.slip.advice;
-		})
+	fetch(`https://api.adviceslip.com/advice`, { cache: "no-cache" }).then(
+		(res) =>
+			res.json().then((data) => {
+				advice_numberEL.innerText = data.slip.id;
+				advice.textContent = data.slip.advice;
+			})
 	);
 }
 
