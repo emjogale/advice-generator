@@ -138,12 +138,13 @@ body {
 }
 
 .dice-btn:hover {
-	box-shadow: 0 0 1.5rem 0.25rem var(--neon-green);
+	box-shadow: 0 0 2rem 0.5rem var(--neon-green);
 }
 
 @media only screen and (min-width: 1030px) {
 	.card {
 		padding: 3rem;
+		min-height: 364px;
 	}
 
 	.advice {
