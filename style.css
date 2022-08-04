@@ -138,7 +138,7 @@ body {
 }
 
 .dice-btn:hover {
-	box-shadow: 0 0.3rem 1.5rem 0.25rem var(--neon-green);
+	box-shadow: 0 0 1.5rem 0.25rem var(--neon-green);
 }
 
 @media only screen and (min-width: 1030px) {
