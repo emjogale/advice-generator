@@ -148,8 +148,13 @@ body {
 		min-height: 364px;
 	}
 
+	.advice-id {
+		font-size: 0.8rem;
+	}
+
 	.advice {
 		font-size: 1.75rem;
+		padding-bottom: 2.5rem;
 	}
 	.divider-desktop {
 		display: block;
