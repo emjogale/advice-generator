@@ -98,11 +98,11 @@ body {
 .card {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
-	padding: 2.5rem 1.5rem 2rem 1.5rem;
+	padding: 2rem 1.5rem;
 	max-width: 540px;
-	min-height: 347px;
+	min-height: 332px;
 	background-color: var(--dark-grayish-blue);
 	color: var(--light-cyan);
 	position: relative;
@@ -145,7 +145,6 @@ body {
 @media only screen and (min-width: 1030px) {
 	.card {
 		padding: 3rem;
-		min-height: 364px;
 	}
 
 	.advice-id {
